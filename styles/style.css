@@ -32,7 +32,7 @@ body {
 
 .cabecalho__menu__link{
     font-family: var(--font-secudaria);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
@@ -133,6 +133,10 @@ body {
 
 @media(max-width: 1000px){
     
+    .cabecalho__menu{
+        align-items: center;
+    }
+
     .apresentacao{
         flex-direction: column-reverse;
     }
@@ -141,10 +145,8 @@ body {
     }
     
     .cabecalho__menu {
-       flex-direction: column;
+       flex-direction: row;
         align-items: center;
-
-        
     }
     
     .apresentacao{
