@@ -144,7 +144,6 @@ body {
     
     .apresentacao{
         flex-direction: column-reverse;
-        background-color: #25444b;
         padding: 5%;
     }
 
